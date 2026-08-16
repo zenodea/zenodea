@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="636" height="668"
+     viewBox="0 0 636 668" role="img"
+     aria-label="Terminal session: zeno@github">
+<style>
+  text { font-family:'JetBrains Mono','JetBrains Mono Variable',ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace; font-size:14px; fill:#cdd6f4; }
+  /* Fail-safe: everything is visible by default. The animation uses
+     `backwards` fill to hide each line only while its delay runs, so a
+     renderer that ignores CSS animations still shows the full session. */
+  .l { animation:reveal .01s steps(1) backwards; }
+  @keyframes reveal { from { opacity:0 } to { opacity:1 } }
+  #cursor { animation:blink 1.06s steps(1) 1.96s infinite backwards; }
+  @keyframes blink { 0% { opacity:0 } 50% { opacity:1 } }
+  @media (prefers-reduced-motion:reduce) {
+    .l, #cursor { opacity:1; animation:none }
+  }
+</style>
+<defs>
+  <linearGradient id="zg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#89b4fa"/>
+    <stop offset="1" stop-color="#94e2d5"/>
+  </linearGradient>
+</defs>
+<rect width="636" height="668" fill="#1e1e2e"/>
+
+<!-- header, mirroring the site's .term-frame command-palette bar -->
+<rect width="636" height="32" fill="#181825"/>
+<line x1="0" y1="32" x2="636" y2="32" stroke="#313244"/>
+<text x="20" y="21" font-size="11" fill="#7f849c" letter-spacing="1.6">README</text>
+<text x="82" y="21" font-size="11" fill="#7f849c">·</text>
+<text x="96" y="21" font-size="11" fill="#7f849c">zeno@github:~</text>
+
+<g class="l" style="animation-delay:0.07s"
+   transform="translate(45.8,72.8) scale(1.5)">
+  <path fill="url(#zg)" d="M0 0 H100 V21 L40 79 H100 V100 H0 V79 L60 21 H0 Z"/>
+</g>
+<rect id="cursor" x="154.4" y="613.0" width="8.4" height="16" fill="#a6e3a1"/>
+<text class="l" style="animation-delay:0.0s" x="20" y="58.0" xml:space="preserve"><tspan fill="#a6e3a1" font-weight="700">zeno</tspan><tspan fill="#7f849c">@</tspan><tspan fill="#f5c2e7" font-weight="700">github</tspan><tspan fill="#7f849c">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#7f849c"> $ </tspan><tspan fill="#cdd6f4">neofetch</tspan></text>
+<text class="l" style="animation-delay:0.07s" x="20" y="79.0" xml:space="preserve">                        <tspan fill="#a6e3a1" font-weight="700">zeno</tspan><tspan fill="#7f849c">@</tspan><tspan fill="#f5c2e7" font-weight="700">github</tspan></text>
+<text class="l" style="animation-delay:0.14s" x="20" y="100.0" xml:space="preserve">                        <tspan fill="#7f849c">───────────</tspan></text>
+<text class="l" style="animation-delay:0.21s" x="20" y="121.0" xml:space="preserve">                        <tspan fill="#7f849c">OS:</tspan> <tspan fill="#cdd6f4">arch</tspan></text>
+<text class="l" style="animation-delay:0.28s" x="20" y="142.0" xml:space="preserve">                        <tspan fill="#7f849c">Shell:</tspan> <tspan fill="#cdd6f4">zsh + tmux</tspan></text>
+<text class="l" style="animation-delay:0.35s" x="20" y="163.0" xml:space="preserve">                        <tspan fill="#7f849c">Editor:</tspan> <tspan fill="#cdd6f4">nvim</tspan></text>
+<text class="l" style="animation-delay:0.42s" x="20" y="184.0" xml:space="preserve">                        <tspan fill="#7f849c">Languages:</tspan> <tspan fill="#cdd6f4">rust, lua, typescript, c</tspan></text>
+<text class="l" style="animation-delay:0.49s" x="20" y="205.0" xml:space="preserve">                        <tspan fill="#7f849c">Interests:</tspan> <tspan fill="#cdd6f4">consensus, CLI tools, agent tooling</tspan></text>
+<text class="l" style="animation-delay:0.56s" x="20" y="226.0" xml:space="preserve">                        <tspan fill="#7f849c">Location:</tspan> <tspan fill="#cdd6f4">London, UK</tspan></text>
+<text class="l" style="animation-delay:0.63s" x="20" y="247.0" xml:space="preserve"></text>
+<text class="l" style="animation-delay:0.7s" x="20" y="268.0" xml:space="preserve"><tspan fill="#a6e3a1" font-weight="700">zeno</tspan><tspan fill="#7f849c">@</tspan><tspan fill="#f5c2e7" font-weight="700">github</tspan><tspan fill="#7f849c">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#7f849c"> $ </tspan><tspan fill="#cdd6f4">ls ~/active</tspan></text>
+<text class="l" style="animation-delay:0.77s" x="20" y="289.0" xml:space="preserve"><tspan fill="#f9e2af">zenote/</tspan>          <tspan fill="#cdd6f4">notes app — typescript + postgres</tspan></text>
+<text class="l" style="animation-delay:0.84s" x="20" y="310.0" xml:space="preserve"><tspan fill="#f9e2af">acp.nvim/</tspan>        <tspan fill="#cdd6f4">zed-like ACP integration for neovim</tspan></text>
+<text class="l" style="animation-delay:0.91s" x="20" y="331.0" xml:space="preserve"><tspan fill="#f9e2af">nextedit.nvim/</tspan>   <tspan fill="#cdd6f4">next-edit prediction, lua + rust</tspan></text>
+<text class="l" style="animation-delay:0.98s" x="20" y="352.0" xml:space="preserve"></text>
+<text class="l" style="animation-delay:1.05s" x="20" y="373.0" xml:space="preserve"><tspan fill="#a6e3a1" font-weight="700">zeno</tspan><tspan fill="#7f849c">@</tspan><tspan fill="#f5c2e7" font-weight="700">github</tspan><tspan fill="#7f849c">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#7f849c"> $ </tspan><tspan fill="#cdd6f4">ls ~/archive</tspan></text>
+<text class="l" style="animation-delay:1.12s" x="20" y="394.0" xml:space="preserve"><tspan fill="#f9e2af">sharpedo/</tspan>             <tspan fill="#cdd6f4">dual-mode DAG-based consensus, MSc thesis</tspan></text>
+<text class="l" style="animation-delay:1.19s" x="20" y="415.0" xml:space="preserve"><tspan fill="#f9e2af">chip8emu_rust/</tspan>        <tspan fill="#cdd6f4">CHIP-8 emulator</tspan></text>
+<text class="l" style="animation-delay:1.26s" x="20" y="436.0" xml:space="preserve"><tspan fill="#f9e2af">ZKP_implementation/</tspan>   <tspan fill="#cdd6f4">zero-knowledge proofs</tspan></text>
+<text class="l" style="animation-delay:1.33s" x="20" y="457.0" xml:space="preserve"><tspan fill="#f9e2af">anonymous_mixnet/</tspan>     <tspan fill="#cdd6f4">anonymous mixnet</tspan></text>
+<text class="l" style="animation-delay:1.4s" x="20" y="478.0" xml:space="preserve"></text>
+<text class="l" style="animation-delay:1.47s" x="20" y="499.0" xml:space="preserve"><tspan fill="#a6e3a1" font-weight="700">zeno</tspan><tspan fill="#7f849c">@</tspan><tspan fill="#f5c2e7" font-weight="700">github</tspan><tspan fill="#7f849c">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#7f849c"> $ </tspan><tspan fill="#cdd6f4">cat contact.txt</tspan></text>
+<text class="l" style="animation-delay:1.54s" x="20" y="520.0" xml:space="preserve"><tspan fill="#7f849c">web      </tspan> <tspan fill="#89b4fa">zenodea.com</tspan></text>
+<text class="l" style="animation-delay:1.61s" x="20" y="541.0" xml:space="preserve"><tspan fill="#7f849c">github   </tspan> <tspan fill="#89b4fa">github.com/zenodea</tspan></text>
+<text class="l" style="animation-delay:1.68s" x="20" y="562.0" xml:space="preserve"><tspan fill="#7f849c">x        </tspan> <tspan fill="#89b4fa">x.com/zeno_dea</tspan></text>
+<text class="l" style="animation-delay:1.75s" x="20" y="583.0" xml:space="preserve"><tspan fill="#7f849c">linkedin </tspan> <tspan fill="#89b4fa">linkedin.com/in/zeno-de-angeli</tspan></text>
+<text class="l" style="animation-delay:1.82s" x="20" y="604.0" xml:space="preserve"></text>
+<text class="l" style="animation-delay:1.89s" x="20" y="625.0" xml:space="preserve"><tspan fill="#a6e3a1" font-weight="700">zeno</tspan><tspan fill="#7f849c">@</tspan><tspan fill="#f5c2e7" font-weight="700">github</tspan><tspan fill="#7f849c">:</tspan><tspan fill="#89b4fa">~</tspan><tspan fill="#7f849c"> $ </tspan></text>
+<rect width="636" height="668" fill="none" stroke="#313244"/>
+</svg>
