@@ -18,7 +18,7 @@ exploring ai tooling · interested in infrastructure
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=zenodea&bg_color=1e1e2e&color=cdd6f4&line=89b4fa&point=f5c2e7&area=true&area_color=89b4fa&hide_border=true&hide_title=true&radius=6" alt="contribution activity" width="100%">
 
 <br>
-
+<br>
 <img src="https://skillicons.dev/icons?i=rust,lua,ts,c,go,arch,neovim,bash,postgres&theme=dark" alt="rust, lua, typescript, c, go, arch, neovim, bash, postgres" height="48">
 
 </div>
