@@ -1,6 +1,6 @@
 ```console
 zeno@github:~ $ whoami
-Zeno de Angeli · software engineer @ Worldover · London 🇬🇧
+Zeno de Angeli · Founding Member of Technical Staff @ Marengo (YC S26) · London 🇬🇧
 
 zeno@github:~ $ cat interests.txt
 consensus protocols · CLI tools · agent tooling · nvim + tmux · ex-UCL infosec
