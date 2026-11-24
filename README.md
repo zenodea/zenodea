@@ -11,7 +11,7 @@ exploring ai tooling · interested in infrastructure
 
 <div align="center">
 
-**[zenodea.com](https://zenodea.com)** &nbsp;·&nbsp; **[cv](https://zenodea.com/files/cv.pdf)** &nbsp;·&nbsp; **[x](https://x.com/zeno_dea)** &nbsp;·&nbsp; **[linkedin](https://www.linkedin.com/in/zeno-de-angeli/)**
+**[website](https://dea.dev)** &nbsp;·&nbsp; **[cv](https://zenodea.com/files/cv.pdf)** &nbsp;·&nbsp; **[x](https://x.com/zeno_dea)** &nbsp;·&nbsp; **[linkedin](https://www.linkedin.com/in/zeno-de-angeli/)**
 
 <br>
 
